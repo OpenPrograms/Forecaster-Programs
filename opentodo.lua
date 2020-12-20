@@ -55,7 +55,7 @@ local function drawEntries()
   end
   print("New entry (Press Enter)")
   gpu.setBackground(0x000000)
-  print("Left Arrow: Delete Entry, Right Arrow: Toggle Checked, ctrl + x: Exit")
+  print("Left Arrow: Delete Entry, Right Arrow: Toggle Checked, ctrl + c: Exit")
 end
 
 local function incrementSelection()
